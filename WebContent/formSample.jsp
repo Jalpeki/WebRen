@@ -4,16 +4,17 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Insert title here</title>
+<title>登録もどき</title>
 </head>
 <body>
-<form action="">
-名前  <input type ="text"  name ="名前"/>
+<form action="Sren/FormRen" method ="post">
+名前  <input type ="text"  name =name/>
+<br>
 男
-<input type ="radio" name = "性別" value ="男性"/>
+<input type ="radio" name = gender value =1/>
 女
-<input type ="radio" name = "性別" value ="女性"/>
-
+<input type ="radio" name = gender value =2/>
+<br>
 <input type="submit"  value= "送信"/>
 
 </form>
