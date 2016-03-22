@@ -7,18 +7,17 @@
 <title>登録もどき</title>
 </head>
 <body>
-<form action="Sren/FormRen" method ="post">
-名前  <input type ="text"  name =name/>
+
+<form action="/WebRen/FormRen" method ="post">
+名前  <input type ="text"  name ="name"/>
 <br>
 男
-<input type ="radio" name = gender value =1/>
+<input type ="radio" name = "gender" value ="1"/>
 女
-<input type ="radio" name = gender value =2/>
+<input type ="radio" name = "gender" value ="2"/>
 <br>
 <input type="submit"  value= "送信"/>
 
 </form>
-
-
 </body>
 </html>
