@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title></title>
+
+<link rel="stylesheet" href="css/order_check.css">
+<body onLoad ="test2()">
+</head>
+<body>
+<script>
+	function test2(){
+        var i = 0;
+        var a = 0;
+        while(i <= 30){
+            alert("ループ回数: " + i + "\n" + "間違った回数:" + a);
+            if(i == 30){
+                var ans = "";
+                var result = prompt("正解を入力してください",ans);
+                if(result == "正解"){
+                    alert("おつかれ～");
+                    break;
+                }else{
+                    alert("はい間違い。ラーメンが表示されます");
+                    i = 0;
+                    a++;
+                }
+                if(a > 0){
+                    for(var j = 0; j < a; j++){
+                        document.write('<img src="img/しょうゆラーメン.jpg" width="104" height="91" />');
+                    }
+                }
+            }
+            i++;
+        }
+    }
+    </script>
+</body>
+</html>
