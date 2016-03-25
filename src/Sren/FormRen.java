@@ -55,7 +55,6 @@ public class FormRen extends HttpServlet {
           out.println("</body>");
           out.println("</html>");
 
-
 	}
   }
 
